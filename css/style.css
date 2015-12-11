@@ -1,0 +1,123 @@
+*{transition: all .1s ease-in;}
+
+/*break settings*/
+*{
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	transition: all 0.1s ease-in;
+}
+
+html, body {
+	min-height: 100%;
+}
+html{
+	 height: 100%;
+}
+
+
+body{
+	margin:0px;
+	padding:0px;
+	background-color: #3399CC;
+	border:20px solid #2B81AC;
+	font-family: Tebuchet MC”, Tebuchet, Arial, sans-serif;
+}
+
+header{
+		font-size: 18px;
+}
+
+header, footer{
+	/*display:block;*/
+	margin-top: 20px;
+	margin-bottom: 15px;
+	color: white;
+	text-align: left;
+}
+div{
+	max-width:600px;
+	margin:auto;
+}
+.list-weather{
+	margin: 20px 0px 20px 0px;
+	border: 2px solid white;
+	padding: 0px;
+	background: white;
+	font-size: 0px;
+}
+li p{
+	margin-top:5px;
+	opacity: 0.7;
+}
+
+li{
+	opacity: 0.9;
+	text-align: center;
+	display:inline-block;
+	padding:20px;
+	font-size: 20px;
+	color:white;
+	}
+/*how do make, that ever li has border?
+	border: 2px solid white;
+}
+
+sup{
+	font-size: 10px;
+}
+
+
+/*class for font. i add his to myself <li> */
+.wi{
+	font-size: 20px;
+}
+/*this classes for width my <li>*/
+.tw{
+	width:25%;
+}
+.ft{
+	width:50%;
+}
+.hn{
+	width:100%;
+}
+
+#lisabon{
+	background-color: #3399CC;
+}
+#paris{
+	background-color: #33CCCC;
+}
+#belgrade{
+	background-color: #996699;
+}
+#moscow{
+	background-color: #C24747;
+}
+#tel-aviv{
+	background-color: #E2674A;
+}
+#cair{
+	background-color: #FFCC66;
+}
+#new-york{
+	background-color: #99CC99;
+}
+#new-delhi{
+	background-color: #669999;
+}
+#san-francisko{
+	background-color: #CC6699;
+}
+#tokyo{
+	background-color: #339966;
+}
+#sydney{
+	background-color: #666699;
+}
+
+.list-weather:hover li:not(:hover) {
+ opacity: 0.5;
+ }
